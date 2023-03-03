@@ -1,0 +1,30 @@
+body {
+    background-color:red;
+    color: teal ;
+}
+
+body{
+    /*background image:url(,/image/index.jpeg);*/
+    background-repeat : no repeat;
+    background-position: right;
+    border-color: red;
+}
+#para1{
+    border-style: groove;
+    border-color: black;
+    color: yellow;
+    background-color: green;
+    border-radius: 0px;
+}
+#para2{
+    background-color: aliceblue;
+    border-style: dashed;
+    color: black;
+}
+
+.one{
+    font-size: larger;
+    font-style: italic;
+    color: cornsilk;
+    background-color: black;
+}

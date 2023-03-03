@@ -1,0 +1,44 @@
+.sidebar{
+    background-color: grey;
+    color: blue;
+    width: 300px;
+    height: 100%;
+    position: fixed;
+    padding-top: 20px;
+    top: 0px;
+    left: 0px;
+
+}
+ul{
+    list-style: none;
+    margin: 10px;
+    padding: 30px;
+
+}
+li{
+    font-family: fantasy;
+    font-size: 20px;
+    padding: 15px 20px;
+
+}
+a{
+    text-decoration: none;
+    color: brown;
+}
+a:hover{
+    background-color: blue;
+    color: aqua;
+}
+.rounded-image{
+    width: 200px;
+    height: 200px;
+    border: 100%;
+    overflow-y: visible;
+    padding-left: 50px;
+}
+
+
+
+
+
+
