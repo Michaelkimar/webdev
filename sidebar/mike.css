@@ -1,6 +1,6 @@
 .sidebar{
-    background-color: grey;
-    color: blue;
+    background-color:black;
+    color: white;
     width: 300px;
     height: 100%;
     position: fixed;
@@ -21,9 +21,9 @@ li{
     padding: 15px 20px;
 
 }
-a{
+.sidebar a{
     text-decoration: none;
-    color: brown;
+    color: white;
 }
 a:hover{
     background-color: blue;
@@ -36,9 +36,42 @@ a:hover{
     overflow-y: visible;
     padding-left: 50px;
 }
+.my-name{
+    font-size: 40px;
+}
+.introduction{
+    margin-left: 300px;
 
+}
+.introduction-text{
+    font: size 25px;
+}
+.contact-me{
+    border:  red ;
+    text-align: center;
+}
+.contact-me a{
+    border: 1px black solid;
+    border-radius: 5px;
+    padding: 8px;
+}
+.contact-me :hover{
+    background-color: turquoise;
+    color: blueviolet;
+}
+.read-more{
+    padding: 10px;
+    
+}
+.read-more a{
+    color: white;
+    background-color: black;
+    font-weight: bold;
 
+}
+.read-more a :hover{
+    background-color: white;
+    color: black;
+    transition: 200ms ease-in-out;
 
-
-
-
+}
